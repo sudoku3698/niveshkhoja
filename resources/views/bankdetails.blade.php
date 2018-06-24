@@ -153,7 +153,7 @@
 
                         <div class="form-group">
                         <label>Review</label> 
-                        <input id="#datetimepicker" type="text" placeholder="Enter Review" class="form-control" name="Bank_Review" value="{{ old('Bank_Review') }}">
+                        <input type="text" placeholder="Enter Review" class="form-control" name="Bank_Review" value="{{ old('Bank_Review') }}">
                         </div>
 
                         <div class="form-group">

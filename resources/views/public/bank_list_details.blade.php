@@ -136,7 +136,21 @@
 
 						<!--END LISTING DETAILS: LEFT PART 1-->
 						<!--LISTING DETAILS: LEFT PART 2-->
-	
+						<div class="pglist-p2 pglist-bg pglist-p-com" id="ld-ser">
+							<div class="pglist-p-com-ti">
+								<h3><span>Services</span> Offered</h3> </div>
+							<div class="list-pg-inn-sp">
+								<div class="row pg-list-ser">
+								@if($table->BANK_SERVICES_OFFERED)
+								<ul>
+									@foreach(explode(',',$table->BANK_SERVICES_OFFERED) as $service)
+									<li>{{$service}}</li>
+									@endforeach
+								</ul>
+								@endif
+								</div>
+							</div>
+						</div>
 						<!--END LISTING DETAILS: LEFT PART 2-->
 						<!--LISTING DETAILS: LEFT PART 3-->
 	                    <div class="pglist-p3 pglist-bg pglist-p-com" id="ld-gal">

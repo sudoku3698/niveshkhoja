@@ -221,88 +221,21 @@
 						<!--END LISTING DETAILS: LEFT PART 1-->
 
 						<!--LISTING DETAILS: LEFT PART 2-->
-
-						<!--<div class="pglist-p2 pglist-bg pglist-p-com" id="ld-ser">
-
+						<div class="pglist-p2 pglist-bg pglist-p-com" id="ld-ser">
 							<div class="pglist-p-com-ti">
-
 								<h3><span>Services</span> Offered</h3> </div>
-
 							<div class="list-pg-inn-sp">
-
-								<p>Taj Luxury Hotels & Resorts provide 24-hour Business Centre, Clinic, Internet Access Centre, Babysitting, Butler Service in Villas and Seaview Suite, House Doctor on Call, Airport Butler Service, Lobby Lounge </p>
-
 								<div class="row pg-list-ser">
-
-									<ul>
-
-										<li class="col-md-4">
-
-											<div class="pg-list-ser-p1"><img src="{{ asset('bank_khoja_ui/images/services/ser1.jpg')}}" alt="" /> </div>
-
-											<div class="pg-list-ser-p2">
-
-												<h4>Restaurant and Bar</h4> </div>
-
-										</li>
-
-										<li class="col-md-4">
-
-											<div class="pg-list-ser-p1"><img src="{{ asset('bank_khoja_ui/images/services/ser2.jpg')}}" alt="" /> </div>
-
-											<div class="pg-list-ser-p2">
-
-												<h4>Room Booking</h4> </div>
-
-										</li>
-
-										<li class="col-md-4">
-
-											<div class="pg-list-ser-p1"><img src="{{ asset('bank_khoja_ui/images/services/ser3.jpg')}}" alt="" /> </div>
-
-											<div class="pg-list-ser-p2">
-
-												<h4>Corporate Events</h4> </div>
-
-										</li>
-
-										<li class="col-md-4">
-
-											<div class="pg-list-ser-p1"><img src="{{ asset('bank_khoja_ui/images/services/ser4.jpg')}}" alt="" /> </div>
-
-											<div class="pg-list-ser-p2">
-
-												<h4>Wedding Hall</h4> </div>
-
-										</li>
-
-										<li class="col-md-4">
-
-											<div class="pg-list-ser-p1"><img src="{{ asset('bank_khoja_ui/images/services/ser5.jpg')}}" alt="" /> </div>
-
-											<div class="pg-list-ser-p2">
-
-												<h4>Travel & Transport</h4> </div>
-
-										</li>
-
-										<li class="col-md-4">
-
-											<div class="pg-list-ser-p1"><img src="{{ asset('bank_khoja_ui/images/services/ser6.jpg')}}" alt="" /> </div>
-
-											<div class="pg-list-ser-p2">
-
-												<h4>All Amenities</h4> </div>
-
-										</li>
-
-									</ul>
-
+								<ul>
+								@if($table->LOAN_SERVICES_OFFERED)
+									@foreach(explode(',',$table->LOAN_SERVICES_OFFERED) as $service)
+									<li>{{$service}}</li>
+									@endforeach
+								</ul>
+								@endif
 								</div>
-
 							</div>
-
-						</div>-->
+						</div>
 
 						<!--END LISTING DETAILS: LEFT PART 2-->
 

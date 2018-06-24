@@ -56,7 +56,7 @@
             @endif
             
                 <div class="panel-heading">
-                    cfacategory  
+                    Mutual Fund  
  
 
 
