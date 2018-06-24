@@ -1,7 +1,7 @@
 Installation Process
 
 Step 1 :- 
-   git clone https://github.com/sudoku3698/niveshkhoja.git
+   run command git clone https://github.com/sudoku3698/niveshkhoja.git
 
 Step 2 :- 
    Rename .env.example to .env
@@ -13,4 +13,4 @@ Step 4 :-
    upload mysql file to your database from database/latestfile.sql
 
 Step 5 :- 
-    Update .env file as per your configuration.
+   update .env file as per your configuration.
