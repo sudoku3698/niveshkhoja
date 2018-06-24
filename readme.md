@@ -10,7 +10,7 @@ Step 3 :-
    run command php artisan key:generate
 
 Step 4 :-
-   upload mysql file to your database from database/latestfile.sql
+   upload mysql file to your database from database/sudokvc4_niveshkhoja2018_06_24.sql
 
 Step 5 :- 
    update .env file as per your configuration.
