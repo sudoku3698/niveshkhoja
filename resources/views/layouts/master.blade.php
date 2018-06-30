@@ -142,7 +142,7 @@
 </script>
 
     
-   
+   @stack('scripts')
 
 
   @section('javascript')

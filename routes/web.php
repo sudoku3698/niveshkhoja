@@ -65,6 +65,8 @@ Route::get('/listings','AddListingController@get_listings')->name('listings');
 
 Route::get('/reviews','AddListingController@get_reviews')->name('reviews');
 
+Route::post('/set_review_status','AddListingController@set_review_status')->name('set_review_status');
+
 Route::get('get_sms','PublicActivityController@get_sms')->name('get_sms');
 
 Route::get('get_quotes','PublicActivityController@get_quotes')->name('get_quotes');

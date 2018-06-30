@@ -22,4 +22,12 @@ class AddListingController extends Controller
     {
       return view('get_reviews',['reviews'=>Review::all()]);
     }
+
+    public function set_review_status(Request $request)
+    {
+    	$Review=Review::find($request->review_id);
+    	$Review->display_review=$request->checked;
+    	$Review->save();
+    	return $request->checked;
+    }
 }

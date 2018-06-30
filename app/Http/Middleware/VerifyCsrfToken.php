@@ -38,6 +38,7 @@ class VerifyCsrfToken extends BaseVerifier
        '/searchServices',
        '/add_city_filter',
        '/add_cat_filter',
-       '/add_listing'
+       '/add_listing',
+       '/set_review_status'
     ];
 }

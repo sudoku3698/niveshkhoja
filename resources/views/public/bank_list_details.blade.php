@@ -102,11 +102,10 @@
 
 							<div class="pglist-p-com-ti">
 
-								<h3><span>About</span> Taj Luxury</h3> </div>
+								<h3><span>About</span></h3> </div>
 
 							<div class="list-pg-inn-sp">
-                                        <h5>BANK_ABOUT :- </h5>
-			                           <p> <h5>{{$table->BANK_ABOUT}}</h5></p>
+	                           <p> <h5>{{$table->BANK_ABOUT}}</h5></p>
 							    <table style="padding:5px;line-height: 3;">
 							        <tr>
 							            <td><h5>IFSC Code :- </h5></td>

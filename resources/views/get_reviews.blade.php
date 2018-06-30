@@ -1,5 +1,26 @@
 @extends('layouts.master')
 
+@push('scripts')
+<script>
+function display_review(id,value) {
+  var data={};
+  var checkBox = document.getElementById(id);
+   data.checked=checkBox.checked?'1':'0';
+   data.review_id = value;
+   $(document).ready(function(){
+    $.ajax({
+        url:'set_review_status',
+        method:'post',
+        data:data,
+        success:function(data){
+            //console.log(data)
+        }
+    });
+   });
+}
+</script>
+@endpush
+
 @section('content')
 
 <div class="content">
@@ -67,6 +88,8 @@
                         <th>Service Type</th>
 
                         <th>Service Id</th>
+
+                        <th>Publish</th>
                      </tr>
 
                     </thead>
@@ -92,6 +115,8 @@
                             <td>{{$listing->service_type}}</td>
 
                             <td>{{$listing->service_id}}</td>
+
+                            <td><input type="checkbox" {{$listing->display_review==1?'checked':''}} class="customcheckbox" value="{{$listing->id}}" id="display_review_{{$listing->id}}" onclick="display_review(this.id,this.value)"></td>
 
                            </tr> 
 
