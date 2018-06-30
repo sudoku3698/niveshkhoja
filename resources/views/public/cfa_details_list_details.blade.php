@@ -97,7 +97,7 @@
 
 							<div class="pglist-p-com-ti">
 
-								<h3><span>About</span> Taj Luxury</h3> </div>
+								<h3><span>About</span></h3> </div>
 
 							<div class="list-pg-inn-sp">
 	                           <p> <h5>{{$table->CFA_ABOUT}}</h5></p>
@@ -115,11 +115,11 @@
 							            <td style="text-align:left;"><b>{{$table->CFA_NATURE_OF_EMPLOYMENT}}</b></td>
 							        </tr>
 							        <tr>
-							            <td><h5>BANK YEAR ESTABLISH :- </h5></td>
+							            <td><h5> YEAR ESTABLISH :- </h5></td>
 							            <td style="text-align:left;"><b>{{$table->CFA_YEAR_ESTABLISH}}</b></td>
 							        </tr>
 							        <tr>
-							            <td><h5>BANK REVIEW :- </h5></td>
+							            <td><h5> REVIEW :- </h5></td>
 							            <td style="text-align:left;"><b>{{$table->CFA_REVIEW}}</b></td>
 							        </tr>
 							       

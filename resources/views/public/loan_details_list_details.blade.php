@@ -192,28 +192,25 @@
 
 							<div class="pglist-p-com-ti">
 
-								<h3><span>About</span> Taj Luxury</h3> </div>
+								<h3><span>About</span></h3> </div>
 
 							<div class="list-pg-inn-sp">
-
-								<div class="share-btn">
-
-									<ul>
-
-										<li><a href="#"><i class="fa fa-facebook fb1"></i> Share On Facebook</a> </li>
-
-										<li><a href="#"><i class="fa fa-twitter tw1"></i> Share On Twitter</a> </li>
-
-										<li><a href="#"><i class="fa fa-google-plus gp1"></i> Share On Google Plus</a> </li>
-
-									</ul>
-
-								</div>
-
-								<p>{{$table->LOAN_ABOUT}} </p>
-
-								
-
+	                           <p> <h5>{{$table->LOAN_ABOUT}}</h5></p>
+							    <table style="padding:5px;line-height: 3;">
+							        <tr>
+							            <td><h5>LOAN CONTACT PERSON :- </h5></td>
+							            <td style="text-align:left;"><b>{{$table->LOAN_CONTACT_PERSON}}</b></td>
+							        </tr>
+							        <tr>
+							            <td><h5> YEAR ESTABLISH :- </h5></td>
+							            <td style="text-align:left;"><b>{{$table->LOAN_YEAR_ESTABLISH}}</b></td>
+							        </tr>
+							        <tr>
+							            <td><h5> REVIEW :- </h5></td>
+							            <td style="text-align:left;"><b>{{$table->LOAN_REVIEW}}</b></td>
+							        </tr>
+							       
+							    </table>
 							</div>
 
 						</div>

@@ -97,28 +97,37 @@
 
 							<div class="pglist-p-com-ti">
 
-								<h3><span>About</span> Taj Luxury</h3> </div>
+								<h3><span>About</span></h3> </div>
 
 							<div class="list-pg-inn-sp">
-
-								<div class="share-btn">
-
-									<ul>
-
-										<li><a href="#"><i class="fa fa-facebook fb1"></i> Share On Facebook</a> </li>
-
-										<li><a href="#"><i class="fa fa-twitter tw1"></i> Share On Twitter</a> </li>
-
-										<li><a href="#"><i class="fa fa-google-plus gp1"></i> Share On Google Plus</a> </li>
-
-									</ul>
-
-								</div>
-
-								<p></p>
-
-								
-
+	                           <p> <h5>{{$table->MUTUAL_FUND_DISTRIBUTOR_ABOUT}}</h5></p>
+							    <table style="padding:5px;line-height: 3;">
+							        <tr>
+							            <td><h5>MUTUAL FUND DISTRIBUTOR AMFI REGISTRATION NUMBER :- </h5></td>
+							            <td style="text-align:left;"><b>{{$table->MUTUAL_FUND_DISTRIBUTOR_AMFI_REGISTRATION_NUMBER}}</b></td>
+							        </tr>
+							        <tr>
+							            <td><h5>MUTUAL FUND DISTRIBUTOR ARN VALIDITY :- </h5></td>
+							            <td style="text-align:left;"><b>{{$table->MUTUAL_FUND_DISTRIBUTOR_ARN_VALIDITY}}</b></td>
+							        </tr>
+							        <tr>
+							            <td><h5>MUTUAL FUND DISTRIBUTOR KYD :- </h5></td>
+							            <td style="text-align:left;"><b>{{$table->MUTUAL_FUND_DISTRIBUTOR_KYD}}</b></td>
+							        </tr>
+							        <tr>
+							            <td><h5>MUTUAL FUND DISTRIBUTOR EUIN :- </h5></td>
+							            <td style="text-align:left;"><b>{{$table->MUTUAL_FUND_DISTRIBUTOR_EUIN}}</b></td>
+							        </tr>
+							        <tr>
+							            <td><h5> YEAR ESTABLISH :- </h5></td>
+							            <td style="text-align:left;"><b>{{$table->MUTUAL_FUND_DISTRIBUTOR_YEAR_ESTABLISH}}</b></td>
+							        </tr>
+							        <tr>
+							            <td><h5> REVIEW :- </h5></td>
+							            <td style="text-align:left;"><b>{{$table->MUTUAL_FUND_DISTRIBUTOR_REVIEW}}</b></td>
+							        </tr>
+							       
+							    </table>
 							</div>
 
 						</div>
