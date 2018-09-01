@@ -43,7 +43,7 @@
 							<li><a href="#ld-ser"><i class="fa fa-cog"></i> Services</a>
 							</li>
 							<li><a href="#ld-gal"><i class="fa fa-photo"></i> Gallery</a>
-							</li>
+							</li> 
 							<!-- <li><a href="#ld-roo"><i class="fa fa-ticket"></i> Room Booking</a>
 							</li>
 							<li><a href="#ld-vie"><i class="fa fa-street-view"></i> 360 View</a>
