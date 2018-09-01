@@ -44,10 +44,10 @@
 							</li>
 							<li><a href="#ld-gal"><i class="fa fa-photo"></i> Gallery</a>
 							</li>
-							<li><a href="#ld-roo"><i class="fa fa-ticket"></i> Room Booking</a>
+							<!-- <li><a href="#ld-roo"><i class="fa fa-ticket"></i> Room Booking</a>
 							</li>
 							<li><a href="#ld-vie"><i class="fa fa-street-view"></i> 360 View</a>
-							</li>
+							</li> -->
 							<li><a href="#ld-rew"><i class="fa fa-edit"></i> Write Review</a>
 							</li>
 							<li><a href="#ld-rer"><i class="fa fa-star-half-o"></i> User Review</a>
