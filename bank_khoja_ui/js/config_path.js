@@ -1,1 +1,1 @@
-var API_PATH=""
+var API_PATH="http://localhost/niveshkhoja/"

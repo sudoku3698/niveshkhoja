@@ -79,7 +79,6 @@ $(document).ready(function() {
     });
 
     $("#post-quote").click(function(){  
-
      event.preventDefault();      
 
     $.post(API_PATH+"api/set_quotes", $("#set_quote").serialize(), function(data) {

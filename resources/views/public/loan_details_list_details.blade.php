@@ -476,7 +476,9 @@
 					@include('public.loan_details_list_right_sidebar',['service_list'=>$service_list])
 
 				</div>
-
+				<!--get quote box -->		
+		@include('public.get_quote_form')		
+		<!--get quote box -->
 			</div>
 
 		</div>

@@ -221,6 +221,9 @@
 						<!--END LISTING DETAILS: LEFT PART 10-->
 					</div>
 				</div>
+				<!--get quote box -->		
+		@include('public.get_quote_form')		
+		<!--get quote box -->
 			</div>
 		</div>
 	</section>
